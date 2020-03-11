@@ -24,7 +24,7 @@ img{
         width: 100%;
         height: 465px;
         padding-top: 89px;
-        background: url(../images/slider.jpg) 0 0 no-repeat;
+        background: url(slider.jpg) 0 0 no-repeat;
         background-size: cover;
 
 
@@ -88,7 +88,7 @@ img{
         font-size: .8rem;
         line-height: 1rem;
         color: black;
-        background: white: ;
+        background: white ;
         border: 1px solid grey;
         border-radius: 0.25rem;
         height: 30px;
@@ -480,7 +480,7 @@ img{
         width: 100%;
         height: 465px;
         padding-top: 89px;
-        background: url(../images/slider.jpg) 0 0 no-repeat;
+        background: url(slider.jpg) 0 0 no-repeat;
         background-size: cover;
 
 
@@ -544,7 +544,7 @@ img{
         font-size: .8rem;
         line-height: 1rem;
         color: black;
-        background: white: ;
+        background: white ;
         border: 1px solid grey;
         border-radius: 0.25rem;
         height: 30px;
@@ -1007,7 +1007,7 @@ img{
         font-size: .8rem;
         line-height: 1rem;
         color: black;
-        background: white: ;
+        background: white ;
         border: 1px solid grey;
         border-radius: 0.25rem;
         height: 30px;
@@ -1480,7 +1480,7 @@ img{
         font-size: .8rem;
         line-height: 1rem;
         color: black;
-        background: white: ;
+        background: white ;
         border: 1px solid grey;
         border-radius: 0.25rem;
         height: 30px;
