@@ -13,7 +13,7 @@ img{
     section#p1{
         width: 100%;
         height: 1000px;
-        background:black;
+        background:white;
     }
 
 
@@ -24,7 +24,7 @@ img{
         width: 100%;
         height: 465px;
         padding-top: 89px;
-        background: url(../images/slider.jpg) 0 0 no-repeat;
+        background: url(slider.jpg) 0 0 no-repeat;
         background-size: cover;
 
 
