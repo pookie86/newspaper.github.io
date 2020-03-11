@@ -1,0 +1,1832 @@
+*{margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+@media screen and (min-width:960px){
+    section#p1{
+        width: 100%;
+        height: 1000px;
+        background: white;
+    }
+
+
+
+    /*début top*/
+
+    div.top{
+        width: 100%;
+        height: 465px;
+        padding-top: 89px;
+        background: url(../images/slider.jpg) 0 0 no-repeat;
+        background-size: cover;
+
+
+    }
+
+    div.top figure{
+        margin-left: 28%;
+        margin-right: 18%
+    }
+
+    figure.logo{
+        width: 170px;
+        height: 151px;
+        float: left;
+    }
+
+    /*nav*/
+
+    .navbar{
+        position: absolute;
+        width: 100%;
+
+    }
+
+    .navbar-nav{
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .navbar-nav .nav-link{color: white!important;
+        width: 200px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler{
+        background: rgba(256,256,256,.6)
+    }
+
+
+
+
+    /*fin nav*/
+
+    .transparent{
+        background: transparent;
+    }
+
+    form{
+        width: 235px;
+        height: 147px;
+        float: left;
+        border: 1px solid white;
+        background: rgba(0,0,0,.6)
+
+    }
+
+    input.form{
+        display: block;
+        width: 90%;
+        padding: 10px;
+        font-size: .8rem;
+        line-height: 1rem;
+        color: black;
+        background: white: ;
+        border: 1px solid grey;
+        border-radius: 0.25rem;
+        height: 30px;
+        margin: 0 auto 5px;
+    }
+
+    label{width: 100%;
+    }
+
+    input.send{
+        width: 90%;
+        background: #983b00;
+        border: none;
+        margin: 0 10px;
+
+
+    }
+
+    form>h3{
+        color: white;
+        font-size: 15px;
+        margin: 5px 0 5px 12px;
+    }
+
+    /*fin top*/
+
+    /*début bot*/
+
+    div.para{
+        width: 20%;
+        float: left;
+
+
+        color: #983b00;
+        font-weight: bold;
+        font-size: 14px;
+
+    }
+
+    div.bot>div.mid{
+        position: absolute;
+        top: 325px;
+        left: 19%;
+        width: 70%;
+        background: white;
+        padding: 10px;
+
+        height: 475px;
+        float: left;
+    }
+
+    div.bot>div.mid>article{
+        width: 50%;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+
+    div.bot>div.mid>article p:nth-child(2){
+        color: #f37221;
+    }
+    div.para>hr{
+        margin: auto;
+        width: 80%;
+        border: 2px solid #f37221;
+    }
+
+    /* fin page 1 Alexandre  */
+
+    /*Début page 2 Daiana*/
+
+
+
+
+    article.debut{ 
+        width: 33%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    section{
+        width: 100%;
+        height: 1000px;
+        background: black;
+    }
+
+
+
+    h1{ 
+
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+
+    h1>span{
+        color: #983b00;
+    }
+
+
+    p.premier {width: 80%;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .soustitre {
+        font-weight: bold;
+    }
+    p.deuxieme{width: 80%;
+        color: white;
+        font-size: 13px;
+        margin-top: 55px; }
+
+    article.debut>figure>figcaption{color:white;
+        width: 100%;
+        font-size: 36px}
+
+    .girl{width: 33%;
+        height: 743px;
+        float: left;
+    }
+
+    p.troisieme{color: white;
+        font-size: 13px;
+        float: left;
+        width: 15%;
+        margin-top: 15%;
+    }
+
+
+    /*Fin page 2 Daiana*/
+
+
+    /*début page 3 Stéphanie*/
+
+    .page3 {
+        width: 100%;
+        height: 1100px;
+        position: relative;
+        background: white;
+
+
+        font-family:'Montserrat', sans-serif;}
+
+    article.gauche {
+
+        float: left;
+        width: 50%;
+        margin-top: 35px;
+    }
+
+    div.bordure {
+        width: 15%;
+        height: 100%;
+        background: rgba(203, 157, 127, 1);
+        opacity:.7;
+        position: absolute;
+        z-index: 1;
+
+        top: 0;
+    }
+
+    h2.toyboard {
+        font-size: 60px;
+        padding-top: 20px;
+        margin-left: 15%;}
+
+    figcaption.haut {
+        margin-top: 35px;
+        margin-left: 30%;
+        margin-bottom: 10px;	
+        font-size: 10px;
+        color: rgba(152, 59, 0, 1);}
+
+    figure >figcaption.bas {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-left: 30%;
+        font-weight: 600;}
+
+    article.droite {
+        display: block;
+        float: right;
+        width: 50%;
+        margin-top: 90px;}
+
+    article.droite>p>span{
+        color: rgba(152, 59, 0, 1);
+    }
+
+    h2.vertical {
+        font-size: 24px;
+        transform: translate( -50% , -50% ) rotate(-90deg);
+        -webkit-transform: translate( -50% , -50% ) rotate(-90deg);
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 80px;
+
+    }
+
+    h2.titre1, h2.titre2 {
+        font-size: 24px;
+        color: rgba(152, 59, 0, 1);
+        margin-left: 55px;
+        margin-right: 190px;
+        margin-bottom: 30px;
+        margin-top: 30px;}
+
+    article.droite>p {
+        font-size: 14px;
+        margin-left: 6%;
+        padding-left: 20px;
+        margin-right: 3%;
+        text-transform: uppercase;
+    }
+
+    article.droite p:nth-of-type(3){
+        margin-bottom: 0;
+    }
+
+
+    div.bouton {
+        display: block;
+        float: right;
+        margin-top: 14px;
+    }
+    div.bouton > a {
+        float: left;
+    }
+
+    button.btn{
+        display: block;
+        float: left;
+        background:rgba(169, 33, 33, 1);
+        /*margin-left: 405px;
+        margin-top: 14px;*/
+        width: 100px;
+        height: 30px;
+        border: transparent;
+    }
+
+    button.btn:hover {
+        background: transparent;
+
+
+    }
+
+    /*fin page 3 stéphanie*/
+
+
+    /*début page 4 Seral*/
+
+    section.page4{
+        width: 100%;
+        height: 1000px;
+        background: black;
+        position: relative;
+
+    }
+    div.bloc19{
+        width: 40%;
+        height: 117px;
+        float: left;
+        background: red;
+        margin-left: 39px;
+        margin-top: 63px;
+        overflow: hidden;
+        background: #983b00;
+    }
+
+    p.n19{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 202px;
+        font-weight: bold;
+        margin-left: 57%;
+        margin-bottom: 16px;
+        margin-top: -68px;
+    }
+
+    div.bloc75{
+        width: 37%;
+        height: 156px;
+        float: left;
+        background: white;
+        margin-top: 25px;
+    }
+    p.n75{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 332px;
+        font-weight: bold;
+        margin-left: -1px;
+        margin-top: -127px;
+        color: #983b00;
+
+    }
+    section.page4 >figure > img{
+        height: auto;
+        width: 22%;
+        margin-top: -1px;
+        float: left;
+    }
+    h2.blocray{
+        float: left;
+        color: black;
+        background: white;
+        width: 326px;
+        height: 71px;
+        padding: 11px;
+        margin-left: -116px;
+        font-size: 42px;
+        margin-top: 126px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+
+        /* IE */
+        -ms-transform: rotate(-90deg);
+
+        /* Opera */
+        -o-transform: rotate(-90deg);
+    }
+
+    article.article_ray{
+        width: 53%;
+        height: 65%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        top: 31%;
+        left: 33%;
+
+
+    }
+    article.article_ray > div.hr> p.texte{
+        color: gray;
+        width: 100%;
+        height: 20%;
+        margin-top: -15%;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    article.article_ray > h2{
+        height: 45%;
+        margin-top: 47px;
+        color: #983b00;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 43px;
+        overflow: auto;
+    }
+    article.article_ray hr{
+        width: 35%;
+
+        border: 2px solid grey;
+    }
+
+    /* fin page 4 Seral*/
+}
+
+@media screen and (min-width:768px) and (max-width:959px){
+    section#p1{
+        width: 100%;
+        height: 1110px;
+        background: white;
+    }
+
+
+
+    /*début top*/
+
+    div.top{
+        width: 100%;
+        height: 465px;
+        padding-top: 89px;
+        background: url(../images/slider.jpg) 0 0 no-repeat;
+        background-size: cover;
+
+
+    }
+
+    div.top figure{
+        margin-left: 15%;
+        margin-right: 18%
+    }
+
+    figure.logo{
+        width: 170px;
+        height: 151px;
+        float: left;
+    }
+
+    /*nav*/
+
+    .navbar{
+        position: absolute;
+        width: 100%;
+
+    }
+
+    .navbar-nav{
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .navbar-nav .nav-link{color: white!important;
+        width: 200px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler{
+        background: rgba(256,256,256,.6)
+    }
+
+
+
+
+    /*fin nav*/
+
+    .transparent{
+        background: transparent;
+    }
+
+    form{
+        width: 235px;
+        height: 147px;
+        float: left;
+        border: 1px solid white;
+        background: rgba(0,0,0,.6)
+
+    }
+
+    input.form{
+        display: block;
+        width: 90%;
+        padding: 10px;
+        font-size: .8rem;
+        line-height: 1rem;
+        color: black;
+        background: white: ;
+        border: 1px solid grey;
+        border-radius: 0.25rem;
+        height: 30px;
+        margin: 0 auto 5px;
+    }
+
+    label{width: 100%;
+    }
+
+    input.send{
+        width: 90%;
+        background: #983b00;
+        border: none;
+        margin: 0 10px;
+
+
+    }
+
+    form>h3{
+        color: white;
+        font-size: 15px;
+        margin: 5px 0 5px 12px;
+    }
+
+    /*fin top*/
+
+    /*début bot*/
+
+    div.para{
+        width: 20%;
+        float: left;
+
+
+        color: #983b00;
+        font-weight: bold;
+        font-size: 14px;
+
+    }
+
+    div.bot>div.mid{
+        position: absolute;
+        top: 325px;
+        left: 19%;
+        width: 70%;
+        background: white;
+        padding: 10px;
+
+        height: 475px;
+        float: left;
+    }
+
+    div.bot>div.mid>article{
+        width: 50%;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+
+    div.bot>div.mid>article p:nth-child(2){
+        color: #f37221;
+    }
+    div.para>hr{
+        margin: auto;
+        width: 80%;
+        border: 2px solid #f37221;
+    }
+
+    /* fin page 1 Alexandre  */
+
+    /*Début page 2 Daiana*/
+
+
+
+
+    article.debut{ 
+        width: 40%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    section{
+        width: 100%;
+        height: 1000px;
+        background: black;
+    }
+
+
+
+    h1{ 
+
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+
+    h1>span{
+        color: #983b00;
+    }
+
+
+    p.premier {width: 100%;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .soustitre {
+        font-weight: bold;
+    }
+    p.deuxieme{width: 100%;
+        color: white;
+        font-size: 13px;
+        margin-top: 55px; }
+
+    article.debut>figure>figcaption{color:white;
+        width: 100%;
+        font-size: 36px}
+
+    .girl{width: 40%;
+        margin-left: 5%;
+
+        float: left;
+    }
+
+    p.troisieme{color: white;
+        font-size: 13px;
+        float: left;
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    /*Fin page 2 Daiana*/
+
+
+    /*début page 3 Stéphanie*/
+
+    .page3 {
+        width: 100%;
+        height: 1100px;
+        position: relative;
+        background: white;
+
+
+        font-family:'Montserrat', sans-serif;}
+
+    article.gauche {
+
+        float: left;
+        width: 50%;
+        margin-top: 35px;
+    }
+
+    div.bordure {
+        width: 15%;
+        height: 100%;
+        background: rgba(203, 157, 127, 1);
+        opacity:.7;
+        position: absolute;
+        z-index: 1;
+
+        top: 0;
+    }
+
+    h2.toyboard {
+        font-size: 60px;
+        padding-top: 20px;
+        margin-left: 15%;}
+
+    figcaption.haut {
+        margin-top: 35px;
+        margin-left: 30%;
+        margin-bottom: 10px;	
+        font-size: 10px;
+        color: rgba(152, 59, 0, 1);}
+
+    figure >figcaption.bas {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-left: 30%;
+        font-weight: 600;}
+
+    article.droite {
+        display: block;
+        float: right;
+        width: 50%;
+        margin-top: 90px;}
+
+    article.droite>p>span{
+        color: rgba(152, 59, 0, 1);
+    }
+
+    h2.vertical {
+        font-size: 24px;
+        transform: translate( -50% , -50% ) rotate(-90deg);
+        -webkit-transform: translate( -50% , -50% ) rotate(-90deg);
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 80px;
+
+    }
+
+    h2.titre1, h2.titre2 {
+        font-size: 24px;
+        color: rgba(152, 59, 0, 1);
+        margin-left: 55px;
+
+        margin-bottom: 30px;
+        margin-top: 30px;}
+
+    article.droite>p {
+        font-size: 14px;
+        margin-left: 6%;
+        padding-left: 20px;
+        margin-right: 3%;
+        text-transform: uppercase;
+    }
+
+    article.droite p:nth-of-type(3){
+        margin-bottom: 0;
+    }
+
+
+    div.bouton {
+        display: block;
+        float: right;
+        margin-top: 14px;
+    }
+    div.bouton > a {
+        float: left;
+    }
+
+    button.btn{
+        display: block;
+        float: left;
+        background:rgba(169, 33, 33, 1);
+        /*margin-left: 405px;
+        margin-top: 14px;*/
+        width: 100px;
+        height: 30px;
+        border: transparent;
+    }
+
+    button.btn:hover {
+        background: transparent;
+
+
+    }
+
+    /*fin page 3 stéphanie*/
+
+
+    /*début page 4 Seral*/
+
+    section.page4{
+        width: 100%;
+        height: 900px;
+        background: black;
+        position: relative;
+
+    }
+    div.bloc19{
+        width: 46%;
+        height: 117px;
+        float: left;
+        background: red;
+        margin-left: 39px;
+        margin-top: 63px;
+        overflow: hidden;
+        background: #983b00;
+    }
+
+    p.n19{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 202px;
+        font-weight: bold;
+        margin-left: 37%;
+        margin-bottom: 16px;
+        margin-top: -68px;
+    }
+
+    div.bloc75{
+        width: 47%;
+        height: 156px;
+        float: left;
+        background: white;
+        margin-top: 25px;
+    }
+    p.n75{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 300px;
+        font-weight: bold;
+        margin-left: -1px;
+        margin-top: -110px;
+        color: #983b00;
+
+    }
+    section.page4 >figure > img{
+        height: auto;
+        width: 22%;
+        margin-top: -1px;
+        float: left;
+    }
+    h2.blocray{
+        float: left;
+        color: black;
+        background: white;
+        font-weight: bold;
+        width: 326px;
+        height: 71px;
+        padding: 11px;
+        margin-left: -116px;
+        font-size: 42px;
+        margin-top: 126px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+
+        /* IE */
+        -ms-transform: rotate(-90deg);
+
+        /* Opera */
+        -o-transform: rotate(-90deg);
+    }
+
+    article.article_ray{
+        width: 53%;
+        height: 65%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        top: 31%;
+        left: 33%;
+
+
+    }
+    article.article_ray > div.hr> p.texte{
+        color: gray;
+        width: 100%;
+        height: 20%;
+        margin-left: 5%;
+        margin-top: -15%;
+        font-size: 14px;
+    }
+    article.article_ray > h2{
+        height: 45%;	
+        color: #983b00;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: -40%;
+        margin-top: 15%;
+        line-height: 43px;
+        position: absolute;
+        width: 150%;}
+    article.article_ray hr{
+        width: 35%;
+
+        border: 2px solid grey;
+    }
+
+    /* fin page 4 Seral*/
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+    section#p1{
+        width: 100%;
+        height: 1550px;
+        background: white;
+    }
+
+
+
+    /*début top*/
+
+    div.top{
+        width: 100%;
+        height: 465px;
+        padding-top: 89px;
+        background: url(../images/slider4802.jpg) 0 0 no-repeat;
+        background-size: cover;
+
+
+
+    }
+
+    div.top figure{
+        margin: 0 auto 5%;
+
+    }
+
+    figure.logo{
+        margin-top: -10%;
+        margin-bottom: 15%;
+        width: 170px;
+        height: 151px;
+
+    }
+
+    /*nav*/
+
+    .navbar{
+        position: absolute;
+        width: 100%;
+
+    }
+
+    .navbar-nav{
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .navbar-nav .nav-link{color: white!important;
+        width: 200px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler{
+        background: rgba(256,256,256,.6)
+    }
+
+
+
+
+    /*fin nav*/
+
+    .transparent{
+        background: transparent;
+    }
+
+    form{
+        width: 235px;
+        height: 147px;
+        margin:auto;
+        border: 1px solid white;
+        background: rgba(0,0,0,.6)
+
+    }
+
+    input.form{
+        display: block;
+        width: 90%;
+        padding: 10px;
+        font-size: .8rem;
+        line-height: 1rem;
+        color: black;
+        background: white: ;
+        border: 1px solid grey;
+        border-radius: 0.25rem;
+        height: 30px;
+        margin: 0 auto 5px;
+    }
+
+    label{width: 100%;
+    }
+
+    input.send{
+        width: 90%;
+        background: #983b00;
+        border: none;
+        margin: 0 10px;
+
+
+    }
+
+    form>h3{
+        color: white;
+        font-size: 15px;
+        margin: 5px 0 5px 12px;
+    }
+
+    /*fin top*/
+
+    /*début bot*/
+
+    div.para{
+        width: 100%;
+        color: #983b00;
+        font-weight: bold;
+        font-size: 14px;
+
+    }
+
+    div.bot>div.mid{
+
+
+
+        width: 100%;
+        background: white;
+        padding: 10px;
+
+        height: 475px;
+        float: left;
+    }
+
+    div.bot>div.mid>article{
+        width: 100%;
+
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+
+    div.bot>div.mid>article p:nth-child(2){
+        color: #f37221;
+    }
+    div.para>hr{
+        margin: auto;
+        width: 80%;
+        border: 2px solid #f37221;
+    }
+
+    /* fin page 1 Alexandre  */
+
+    /*Début page 2 Daiana*/
+
+
+
+
+    article.debut{ 
+        width: 40%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    section{
+        width: 100%;
+        height: 1000px;
+        background: black;
+    }
+
+
+
+    h1{ 
+
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+
+    h1>span{
+        color: #983b00;
+    }
+
+
+    p.premier {width: 100%;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .soustitre {
+        font-weight: bold;
+    }
+    p.deuxieme{width: 100%;
+        color: white;
+        font-size: 13px;
+        margin-top: 55px; }
+
+    article.debut>figure>figcaption{color:white;
+        width: 100%;
+        font-size: 20px}
+
+    .girl{width: 40%;
+        margin-left: 5%;
+
+        float: left;
+    }
+
+    p.troisieme{color: white;
+        font-size: 13px;
+        float: left;
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    /*Fin page 2 Daiana*/
+
+
+    /*début page 3 Stéphanie*/
+
+    .page3 {
+        width: 100%;
+        height: 1350px;
+        position: relative;
+        background: white;
+
+
+        font-family:'Montserrat', sans-serif;}
+
+    article.gauche {
+
+        float: left;
+        width: 50%;
+        margin-top: 35px;
+    }
+
+    div.bordure {
+        width: 15%;
+        height: 100%;
+        background: rgba(203, 157, 127, 1);
+        opacity:.7;
+        position: absolute;
+        z-index: 1;
+
+        top: 0;
+    }
+
+    h2.toyboard {
+        font-size: 60px;
+        padding-top: 20px;
+        margin-left: 15%;}
+
+    figcaption.haut {
+        margin-top: 35px;
+        margin-left: 30%;
+        margin-bottom: 10px;	
+        font-size: 10px;
+        color: rgba(152, 59, 0, 1);}
+
+    figure >figcaption.bas {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-left: 30%;
+        font-weight: 600;}
+
+    article.droite {
+        display: block;
+        float: right;
+        width: 50%;
+        margin-top: 90px;}
+
+    article.droite>p>span{
+        color: rgba(152, 59, 0, 1);
+    }
+
+    article.droite>p:nth-of-type(3){
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        top: 80%
+
+    }
+
+    article.droite>p:nth-of-type(2){
+        position: absolute;
+        left: 10%;
+        top:60%;
+        width: 80%;
+
+    }
+
+    h2.vertical {
+        font-size: 24px;
+        transform: translate( -50% , -50% ) rotate(-90deg);
+        -webkit-transform: translate( -50% , -50% ) rotate(-90deg);
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 80px;
+
+    }
+
+    h2.titre2 {
+        font-size: 24px;
+        color: rgba(152, 59, 0, 1);
+        position: absolute;
+        left: 20%;
+        margin-top: 5%;
+        top: 75%;
+
+    }
+
+    h2.titre1{
+        font-size: 24px;
+        color: rgba(152, 59, 0, 1);
+        position: absolute;
+        left: 20%;
+        margin-top: 5%;
+        top: 55%;
+    }
+
+    article.droite>p {
+        font-size: 14px;
+        margin-left: 6%;
+        padding-left: 20px;
+        margin-right: 3%;
+        text-transform: uppercase;
+    }
+
+    article.droite p:nth-of-type(3){
+        margin-bottom: 0;
+    }
+
+
+    div.bouton {
+        display: block;
+        float: right;
+        margin-top: 14px;
+    }
+    div.bouton > a {
+        float: left;
+    }
+
+    button.btn{
+        display: block;
+        float: left;
+        background:rgba(169, 33, 33, 1);
+        /*margin-left: 405px;
+        margin-top: 14px;*/
+        width: 100px;
+        height: 30px;
+        border: transparent;
+    }
+
+    button.btn:hover {
+        background: transparent;
+
+
+    }
+
+    /*fin page 3 stéphanie*/
+
+
+    /*début page 4 Seral*/
+
+    section.page4{
+        width: 100%;
+        height: 1500px;
+        background: black;
+        position: relative;
+
+    }
+    div.bloc19{
+        width: 45%;
+        height: 117px;
+        float: left;
+        background: red;
+        margin-top: 0px;
+
+        background: white;
+    }
+
+    p.n19{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 202px;
+        font-weight: bold;
+        color: #983b00;
+        margin-bottom: 16px;
+        margin-top: -68px;
+    }
+
+    div.bloc75{
+        width: 50%;
+        height: 156px;
+        float:right;
+        background: #983b00;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+    p.n75{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 207px;
+        font-weight: bold;
+        margin-left: -5px;
+        margin-top: -50px;
+
+
+    }
+    section.page4 >figure > img{
+        height: auto;
+        width: 40%;
+        margin-top: 50%;
+        float: left;
+        position: relative;
+    }
+    h2.blocray{
+        float: left;
+        color: black;
+        background: white;
+        font-weight: bold;
+        width: 80%;
+        margin-top: 50px;
+        text-align: center;
+        height: 71px;
+        padding: 11px;
+        font-size: 42px;
+        margin-left: -30%
+
+    }
+
+    article.article_ray{
+        width: 50%;
+        height: 65%;
+        float: left;
+
+
+
+
+
+    }
+    article.article_ray > div.hr> p.texte{
+        color: gray;
+        width: 100%;
+        margin-top: 10%;
+
+
+
+        font-size: 14px;
+    }
+    article.article_ray > h2{
+        height: 45%;	
+        color: #983b00;
+        font-size: 35px;
+        font-weight: bold;
+        margin-left: -40%;
+        margin-top: 22%;
+        line-height: 43px;
+        position: absolute;
+        width: 100%;}
+    article.article_ray hr{
+        width:90%;
+        margin-left: -25%;
+        margin-top: 30%;
+
+        border: 2px solid grey;
+    }
+
+    /* fin page 4 Seral*/
+}
+
+@media screen and (max-width:479px){
+    section#p1{
+        width: 100%;
+        height: 1950px;
+        background: white;
+    }
+
+
+
+    /*début top*/
+
+    div.top{
+        width: 100%;
+        height: 465px;
+        padding-top: 89px;
+        background: url(../images/slider4802.jpg) 0 0 no-repeat;
+        background-size: cover;
+
+
+
+    }
+
+    div.top figure{
+        margin: 0 auto 5%;
+
+    }
+
+    figure.logo{
+        margin: -10% auto 15%;
+        width: 170px;
+        height: 151px;
+
+    }
+
+    /*nav*/
+
+    .navbar{
+        position: absolute;
+        width: 100%;
+
+    }
+
+    .navbar-nav{
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .navbar-nav .nav-link{color: white!important;
+        width: 200px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler{
+        background: rgba(256,256,256,.6)
+    }
+
+
+
+
+    /*fin nav*/
+
+    .transparent{
+        background: transparent;
+    }
+
+    form{
+        width: 235px;
+        height: 147px;
+        margin:auto;
+        border: 1px solid white;
+        background: rgba(0,0,0,.6)
+
+    }
+
+    input.form{
+        display: block;
+        width: 90%;
+        padding: 10px;
+        font-size: .8rem;
+        line-height: 1rem;
+        color: black;
+        background: white: ;
+        border: 1px solid grey;
+        border-radius: 0.25rem;
+        height: 30px;
+        margin: 0 auto 5px;
+    }
+
+    label{width: 100%;
+    }
+
+    input.send{
+        width: 90%;
+        background: #983b00;
+        border: none;
+        margin: 0 10px;
+
+
+    }
+
+    form>h3{
+        color: white;
+        font-size: 15px;
+        margin: 5px 0 5px 12px;
+    }
+
+    /*fin top*/
+
+    /*début bot*/
+
+    div.para{
+        width: 100%;
+        color: #983b00;
+        font-weight: bold;
+        font-size: 14px;
+
+    }
+
+    div.bot>div.mid{
+
+
+
+        width: 100%;
+        background: white;
+        padding: 10px;
+
+        height: 475px;
+        float: left;
+    }
+
+    div.bot>div.mid>article{
+        width: 100%;
+
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+
+    div.bot>div.mid>article p:nth-child(2){
+        color: #f37221;
+    }
+    div.para>hr{
+        margin: auto;
+        width: 80%;
+        border: 2px solid #f37221;
+    }
+
+    /* fin page 1 Alexandre  */
+
+    /*Début page 2 Daiana*/
+
+
+
+
+    article.debut{ 
+        width: 100%;
+
+    }
+
+    section{
+        width: 100%;
+        height: 1470px;
+        background: black;
+    }
+
+
+
+    h1{ 
+
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+
+    h1>span{
+        color: #983b00;
+    }
+
+
+    p.premier {width: 100%;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .soustitre {
+        font-weight: bold;
+    }
+    p.deuxieme{width: 100%;
+        color: white;
+        font-size: 13px;
+    }
+
+    article.debut>figure>figcaption{color:white;
+        width: 100%;
+        font-size: 35px}
+
+    .girl{
+        width: 80%;
+        margin-left: 5%;
+
+
+    }
+
+    p.troisieme{color: white;
+        font-size: 13px;
+        float: left;
+        width: 100%;
+        margin-top: 5%;
+
+    }
+
+
+    /*Fin page 2 Daiana*/
+
+
+    /*début page 3 Stéphanie*/
+
+    .page3 {
+        width: 100%;
+        height: 1450px;
+        position: relative;
+        background: white;
+        font-family:'Montserrat', sans-serif;}
+
+    article.gauche {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    div.bordure {
+        width: 15%;
+        height: 100%;
+        background: rgba(203, 157, 127, 1);
+        opacity:.7;
+        position: absolute;
+        z-index: 1;
+
+        top: 0;
+    }
+
+    h2.toyboard {
+        font-size: 30px;
+        padding-top: 20px;
+        margin-left: 15%;}
+
+    figcaption.haut {
+        margin-top: 35px;
+        margin-left: 15%;
+
+        font-size: 10px;
+        color: rgba(152, 59, 0, 1);}
+
+    figure >figcaption.bas {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-left: 15%;
+        font-weight: 600;}
+
+    article.droite {
+        width: 100%;
+        margin-top: 90px;}
+
+    article.droite>p>span{
+        color: rgba(152, 59, 0, 1);
+    }
+
+
+
+    h2.vertical {
+        font-size: 24px;
+        transform: translate( -50% , -50% ) rotate(-90deg);
+        -webkit-transform: translate( -50% , -50% ) rotate(-90deg);
+        position: absolute;
+        margin-left: 8%;
+        z-index: 3;
+        margin-top: 90%;
+        letter-spacing: 60px;
+    }
+
+    h2.titre1, h2.titre2 {
+        font-size: 24px;
+        color: rgba(152, 59, 0, 1);
+        margin-left: 15%;
+    }
+
+    article.droite>p {
+        font-size: 14px;
+        width: 83%;
+        margin-left: 15%;
+
+
+        text-transform: uppercase;
+    }
+
+    article.droite p:nth-of-type(3){
+        margin-bottom: 0;
+    }
+
+
+    div.bouton {
+        display: block;
+
+        margin-left: 35%;
+    }
+    div.bouton > a {
+        float: left;
+    }
+
+    button.btn{
+        display: block;
+        float: left;
+        background:rgba(169, 33, 33, 1);
+        /*margin-left: 405px;
+        margin-top: 14px;*/
+        width: 100px;
+        height: 30px;
+        border: transparent;
+    }
+
+    button.btn:hover {
+        background: transparent;
+
+
+    }
+
+    /*fin page 3 stéphanie*/
+
+
+    /*début page 4 Seral*/
+
+    section.page4{
+        width: 100%;
+        height: 1700px;
+        background: black;
+        position: relative;
+
+    }
+    div.bloc19{
+        width: 35%;
+        height: 70px;
+        float: left;
+        background: red;
+        background: white;
+    }
+
+    p.n19{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 120px;
+        font-weight: bold;
+        color: #983b00;
+        margin-bottom: 16px;
+        margin-top: -48px;
+    }
+
+    div.bloc75{
+        width: 65%;
+        height: 87px;
+        float:left;
+        background: #983b00;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+    p.n75{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 140px;
+        font-weight: bold;
+        margin-left: -5px;
+        margin-top: -50px;
+
+
+    }
+    section.page4 >figure > img{
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+        float: left;
+        position: relative;
+    }
+    h2.blocray{
+        float: left;
+        color: black;
+        background: white;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        height: 71px;
+        padding: 11px;
+        font-size: 42px;
+
+
+    }
+
+    article.article_ray{
+
+        width: 100%;
+        height: 65%;
+    }
+    article.article_ray > div.hr> p.texte{
+        color: gray;
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        font-size: 14px;
+    }
+    article.article_ray > h2{
+        	
+        color: #983b00;
+        font-size: 27px;
+        font-weight: bold;
+        width: 90%;
+        line-height: 43px;
+        margin-left: 5%;
+        }
+    article.article_ray hr{
+        width:70%;
+        margin: 10% auto;
+        border: 2px solid grey;
+    }
+
+    /* fin page 4 Seral*/
+}
+
+/* début page 1 Alexandre  */
+
